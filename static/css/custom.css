@@ -1,0 +1,93 @@
+/* custom.css */
+
+/* Import Iosevka font */
+@font-face {
+    font-family: 'Iosevka Custom';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('/fonts/IosevkaCustom-Regular.woff2') format('woff2');
+}
+
+/* Override base colors and styles */
+:root {
+    --h1-color: #bf616a;
+    --h2-color: #CE93D8;
+    --h3-color: #a3be8c;
+    --bold-color: #ebcb8b;
+    --link-color: #E0F2F1;
+    --text-normal: rgb(55 65 81);
+    --text-muted: rgb(107 114 128);
+}
+
+/* Dark mode colors */
+.dark {
+    --text-normal: rgb(209 213 219);
+    --text-muted: rgb(156 163 175);
+    --h1-color: #bf616a;
+    --h2-color: #CE93D8;
+    --h3-color: #a3be8c;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.25rem !important;
+    padding-top: 0.5rem !important;
+    font-weight: 700 !important;
+}
+
+h1 { color: var(--h1-color) !important; }
+h2 { color: var(--h2-color) !important; }
+h3 { color: var(--h3-color) !important; }
+
+/* Code blocks */
+code, pre code {
+    font-family: 'Iosevka Custom', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+}
+
+/* Bold text */
+strong {
+    color: var(--bold-color) !important;
+}
+
+/* Links */
+a {
+    color: var(--link-color) !important;
+}
+
+/* Content area */
+#content {
+    color: var(--text-normal) !important;
+}
+
+/* Lists */
+ul, ol {
+    margin-bottom: 1.25rem !important;
+    margin-left: 1.5rem !important;
+    padding: 7px 0 13px !important;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid var(--text-muted) !important;
+    color: var(--text-muted) !important;
+    font-style: italic !important;
+    margin: 1.5em 0 !important;
+    padding: 0.5em 1em !important;
+}
+
+/* Tables */
+table {
+    margin: 1em 0 !important;
+    border-collapse: collapse !important;
+}
+
+th {
+    background-color: rgba(var(--text-normal), 0.1) !important;
+    font-weight: 600 !important;
+}
+
+td, th {
+    border: 1px solid var(--text-muted) !important;
+    padding: 0.5em 1em !important;
+}

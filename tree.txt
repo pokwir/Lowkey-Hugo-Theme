@@ -1,0 +1,115 @@
+.
+├── ExampleSite
+│   ├── config
+│   │   └── _default
+│   │       ├── hugo.toml
+│   │       ├── menus.toml
+│   │       └── params.toml
+│   ├── content
+│   │   ├── _index.md
+│   │   ├── categories
+│   │   │   ├── _index.md
+│   │   │   ├── css
+│   │   │   │   └── _index.md
+│   │   │   ├── javascript
+│   │   │   │   └── _index.md
+│   │   │   └── uncategories
+│   │   │       └── _index.md
+│   │   ├── posts
+│   │   │   ├── _index.md
+│   │   │   └── markdown-cheat-sheet
+│   │   │       ├── cat.jpg
+│   │   │       └── index.md
+│   │   └── tags
+│   │       └── _index.md
+│   ├── i18n
+│   │   ├── en.toml
+│   │   └── pt.toml
+│   └── package.json
+├── LICENSE
+├── README.md
+├── archetypes
+│   ├── default.md
+│   └── posts.md
+├── assets
+│   ├── css
+│   │   └── tailwind.css
+│   ├── icons
+│   │   ├── arrow-left.svg
+│   │   ├── arrow-right.svg
+│   │   ├── favicon.ico
+│   │   ├── moon.svg
+│   │   └── sun.svg
+│   └── img
+│       └── profile-picture.jpg
+├── config
+│   ├── postcss.config.js
+│   └── tailwind.config.js
+├── cover.png
+├── images
+│   ├── screenshot.png
+│   └── tn.png
+├── layouts
+│   ├── 404.html
+│   ├── _default
+│   │   ├── baseof.html
+│   │   ├── list.html
+│   │   └── single.html
+│   ├── index.html
+│   ├── partials
+│   │   ├── footer
+│   │   │   ├── copyright.html
+│   │   │   ├── index.html
+│   │   │   └── social.html
+│   │   ├── head
+│   │   │   ├── index.html
+│   │   │   ├── meta.html
+│   │   │   └── styles.html
+│   │   ├── header
+│   │   │   ├── avatar.html
+│   │   │   ├── index.html
+│   │   │   ├── nav.html
+│   │   │   ├── theme-button.html
+│   │   │   └── title.html
+│   │   ├── list
+│   │   │   ├── default.html
+│   │   │   └── pagination.html
+│   │   ├── single
+│   │   │   ├── comments
+│   │   │   │   ├── disqus.html
+│   │   │   │   ├── giscus.html
+│   │   │   │   └── index.html
+│   │   │   └── table-of-contents.html
+│   │   └── utils
+│   │       └── icon.html
+│   ├── robots.txt
+│   ├── shortcodes
+│   │   ├── alert.html
+│   │   ├── img.html
+│   │   └── task-list.html
+│   └── taxonomies
+│       └── home.html
+├── static
+│   └── fonts
+│       ├── inter-v12-latin-100.woff
+│       ├── inter-v12-latin-100.woff2
+│       ├── inter-v12-latin-200.woff
+│       ├── inter-v12-latin-200.woff2
+│       ├── inter-v12-latin-300.woff
+│       ├── inter-v12-latin-300.woff2
+│       ├── inter-v12-latin-500.woff
+│       ├── inter-v12-latin-500.woff2
+│       ├── inter-v12-latin-600.woff
+│       ├── inter-v12-latin-600.woff2
+│       ├── inter-v12-latin-700.woff
+│       ├── inter-v12-latin-700.woff2
+│       ├── inter-v12-latin-800.woff
+│       ├── inter-v12-latin-800.woff2
+│       ├── inter-v12-latin-900.woff
+│       ├── inter-v12-latin-900.woff2
+│       ├── inter-v12-latin-regular.woff
+│       └── inter-v12-latin-regular.woff2
+├── theme.toml
+└── tree.txt
+
+34 directories, 79 files
